@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Go Japan/ A Propos</title>
+    <link rel="stylesheet" href="fonction.js">
+    <link rel="stylesheet" href="styleW3.css">
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="fonction.js"></script>
+</head>
+<style>
+    body {
+        background-image: url();
+        /* Image*/
+        background-repeat: no-repeat;
+        /* Do not repeat the image */
+        background-attachment: fixed;
+        /* Center the image */
+        background-size: cover;
+        height: 900px
+        /* Resize the background image to cover the entire container */
+    }
+</style>
+<center><img id="img" src="narutoVSsasuke.png"></center>
+<style>
+    .clignote {
+        animation: clignote 2s linear infinite;
+    }
+    
+    @keyframes clignote {
+        50% {
+            opacity: 12px;
+        }
+    }
+</style>
+<style>
+    /* Style de base pour la liste */
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    /* Style pour les éléments de menu */
+    li {
+        margin: 0;
+        padding: 0;
+        display: inline-block; /* Aligner horizontalement */
+        position: relative; /* Nécessaire pour les sous-menus */
+    }
+
+    /* Style pour les liens */
+    a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+        padding: 10px;
+    }
+
+    /* Style pour les éléments de menu déroulants */
+    ul ul {
+        display: none;
+        position: absolute;
+        top: 100%; /* Position sous l'élément parent */
+        left: 0;
+    }
+
+    /* Lorsqu'un élément parent est survolé, afficher les éléments enfants */
+    ul li:hover > ul {
+        display: block;
+    }
+</style>
+</head>
+<body>
+<h1>A Propos</h1>
